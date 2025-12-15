@@ -70,7 +70,7 @@ async def start(message: Message, bot: Bot):
                 ])
                 await message.answer(text, reply_markup=kb)
     else:
-        await message.answer("Этот бот только для свояков")
+        pass
 
 
 @rt.chat_member()
